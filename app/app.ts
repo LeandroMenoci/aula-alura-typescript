@@ -1,3 +1,4 @@
+import { NegociacoesView } from './views/negociacoes-view';
 import { NegociacaoController } from "./controllers/negociacao-controller.js";
 
 const controller = new NegociacaoController()
@@ -6,3 +7,4 @@ form.addEventListener('submit', (event: any) => {
   event.preventDefault()
   controller.adiciona()
 })
+
